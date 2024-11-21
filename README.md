@@ -33,7 +33,7 @@ A severity scoring metric was also developed to prioritize TD resolution. The da
 - **`best_pipeline.pkl`**: Serialized pipeline containing the trained model and preprocessing steps.
 - **`dataset_with_project_names.csv`**: Original dataset with project names.
 - **`dataset_final.csv`**: Preprocessed dataset used for the ML models.
-- **`results/`**: Directory containing results and visualizations (e.g., graphs, confusion matrices).
+- **`results/`**: Directory containing result tables.
 
 ---
 
@@ -51,7 +51,7 @@ Some key features:
 - **Team Contributions:** `contributors_count`, `contributors_experience`
 - **Class Interactions:** `rfc`, `dit`
 
-The target variable is binary (`1` for TD presence, `0` for absence). The final dataset contains 17,797 instances with 19 columns.
+The target variable `Max-Ruler` is binary (`1` for TD presence, `0` for absence). The final dataset contains 17,797 instances with 19 columns.
 
 ---
 
